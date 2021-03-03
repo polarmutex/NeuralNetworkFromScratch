@@ -32,6 +32,15 @@ line-length = 90
 target-version = ['py37','py38']
 include = ''
 exclude = '''
+/(
+    \.git
+  | __pycache__
+  | \.tox
+  | \.venv
+  | build
+  | dist
+  | docs
+)/
 '''
 
 [tool.isort]
